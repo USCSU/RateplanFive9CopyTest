@@ -20,9 +20,9 @@
 	</bean>
 	<bean id = "mssqlPara" class = "com.model.Parameter">
 		<property name = "driver" value = "com.microsoft.sqlserver.jdbc.SQLServerDriver"></property>
-		<property name = "url" value = "jdbc:sqlserver://10.7.42.13:1433;databasename=EngageIp"></property>
-		<!-- <property name = "username" value = "OSS"></property> -->
-		<property name = "password" value = "p@ssw0rD1"></property>
+		<property name = "url" value = "jdbc:sqlserver://"></property>
+		<!-- <property name = "username" value = ""></property> -->
+		<property name = "password" value = ""></property>
 		<property name = "sql" value = "select * from Server"></property>
 		
 		
